@@ -1,3 +1,6 @@
 body{background-image:url("./image/haikei.jpg");}
 background-repeat:no-repeat;
-body{background-color:#f0f8ff;}
+highlight-bg {background-color: #f0f8ff; /* 網掛けの色 */
+  　　　　　　　padding: 2px 4px; /* 文字周りの余白 */
+  　　　　　　　border-radius: 4px; /* 角を少し丸くする場合 */}
+
