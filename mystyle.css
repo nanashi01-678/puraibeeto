@@ -1,3 +1,14 @@
-body{background-image:url("./image/haikei.jpg");}
-background-repeat:no-repeat;
+.bg-transparent{position: relative;padding: 100px 0;}
+.bg-transparent::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  background-image: url("./image/haikei.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;}
 .text-background-01{display: inline-block;fontsize:2.5rem;fontweight:600;line-height:1.4em;padding:5px;background:#D3D3D3;}
